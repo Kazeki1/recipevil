@@ -3,13 +3,13 @@ var router = express.Router();
 var User = require('../models/models.js').User;
 
 //161122-heroku connection code
-var recipEvil = require('recipEvil');
-
-app.get(
-  '/recipEvil', function (request, response) {
-    response.send(recipEvil());
-  }
-);
+// var recipEvil = require('recipEvil');
+//
+// app.get(
+//   './recipEvil', function (request, response) {
+//     response.send(recipEvil());
+//   }
+// );
 //----------
 
 
