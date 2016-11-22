@@ -1,9 +1,9 @@
 var mongoose =require('mongoose');
 // var connectionString = process.env.MONGODB_URI || 'mongodb://localhost';   //with mongodb on locally
 // process.env env is envronmental var
-var connectionString = 'MONGODB_URI:mongodb://heroku_qzw7l8gq:hsoi180i17kbs27hqvttbj9cba@ds161497.com:61497/heroku_qzw7l8gq';
+// 'MONGODB_URI => mongodb://heroku_qzw7l8gq:hsoi180i17kbs27hqvttbj9cba@ds161497.com:61497/heroku_qzw7l8gq';
 //MONGODB_URI:mongodb://heroku_qzw7l8gq:hsoi180i17kbs27hqvttbj9cba@ds161497.mlab.com:61497/heroku_qzw7l8gq
-
+var connectionString = 'mongodb://heroku_qzw7l8gq:hsoi180i17kbs27hqvttbj9cba@ds161497.mlab.com:61497/heroku_qzw7l8gq';
 
 var Schema = mongoose.Schema,
   ObjectId = Schema.ObjectId;
